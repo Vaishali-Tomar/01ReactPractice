@@ -1,0 +1,22 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+:root {
+  --background-color: rgb(141, 138, 138);
+  --text-color: black;
+}
+
+[data-theme='dark'] {
+  --background-color: black;
+  --text-color: white;
+}
